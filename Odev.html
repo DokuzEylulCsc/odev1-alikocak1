@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ali Koçak 2018280031</title>
+
+</head>
+<body>
+<h2>2019 Güz Döneminin ilk ödevi</h2>
+<label for="id1">Metin kutusu 1</label>
+<input type="text" id="id1"/>
+<br>
+<label for="id2">Metin kutusu 2</label>
+<input type="text" id="id2"/>
+<br><br>
+<button type="button" onclick="topla()"><b>Topla</b></button>
+<br><br>
+<label for="id3">Metin kutusu </label>
+<input type="text" id="id3" />
+<br>
+<label for="id4">Metin kutusu </label>
+<input type="text" id="id4" />
+<br><br>
+<button type="button" onclick="birlestir()"><b>Yapıştır</b></button>
+<script >
+function topla()
+{
+var sayi1 = document.getElementById("id1").value;
+var sayi2 = document.getElementById("id2").value;
+if(isNaN(sayi1) || isNaN(sayi2))
+{
+alert("Sayısal karakter girmelisiniz!!!");
+return false;
+}
+else
+{
+sayi1=Number(sayi1);
+sayi2=Number(sayi2);
+var toplam = sayi1+sayi2;
+alert(toplam);
+
+}
+}
+function birlestir()
+{
+var sayi3 = document.getElementById("id3").value;
+var sayi4 = document.getElementById("id4").value;
+if(isNaN(sayi3) || isNaN(sayi4))
+{
+alert("Sayısal karakterler girmelisiniz!!!");
+return false;
+}
+else
+{
+var string1 = sayi3.toString();
+var string2 = sayi4.toString();
+var birlestir = string1+string2;
+alert(birlestir);
+}
+
+}
+</script>
+</body>
+</html>
