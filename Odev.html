@@ -7,10 +7,10 @@
 <body>
 <h2>2019 Güz Döneminin ilk ödevi</h2>
 <label for="id1">Metin kutusu 1</label>
-<input type="text" id="id1"/>
+<input type="text" id="id1" onkeypress="kontrol(event)"/>
 <br>
 <label for="id2">Metin kutusu 2</label>
-<input type="text" id="id2"/>
+<input type="text" id="id2" onkeypress="kontrol(event)"/>
 <br><br>
 <button type="button" onclick="topla()"><b>Topla</b></button>
 <br><br>
@@ -26,38 +26,36 @@ function topla()
 {
 var sayi1 = document.getElementById("id1").value;
 var sayi2 = document.getElementById("id2").value;
-if(isNaN(sayi1) || isNaN(sayi2))
-{
-alert("Sayısal karakter girmelisiniz!!!");
-return false;
-}
-else
-{
 sayi1=Number(sayi1);
 sayi2=Number(sayi2);
 var toplam = sayi1+sayi2;
 alert(toplam);
 
 }
-}
 function birlestir()
 {
 var sayi3 = document.getElementById("id3").value;
 var sayi4 = document.getElementById("id4").value;
-if(isNaN(sayi3) || isNaN(sayi4))
-{
-alert("Sayısal karakterler girmelisiniz!!!");
-return false;
-}
-else
-{
 var string1 = sayi3.toString();
 var string2 = sayi4.toString();
 var birlestir = string1+string2;
 alert(birlestir);
 }
-
+function kontrol(event)
+{
+if(event.keyCode != 8 && event.keyCode !=0 && (event.keyCode < 48 || event.keyCode > 57))
+{
+event.returnValue = false;
 }
+}
+
 </script>
 </body>
 </html>
+/*
+  KAYNAK
+  https://www.it-swarm.net/tr/javascript/javascript-dogrulama-sadece-sayilar/1066936217/
+  https://www.youtube.com/watch?v=-ei7CLxoOVU
+  http://www.oguzhantas.com/javascript/259-javascript-ile-harf-rakam-kontrolu.html
+  https://www.yazilimbilisim.net/javascript/javascript-tur-donusumu/
+*/
