@@ -1,0 +1,10 @@
+C:\Users\lenovo\source\repos\aliKocak2018280031\aliKocak2018280031\bin\Debug\aliKocak2018280031.exe.config
+C:\Users\lenovo\source\repos\aliKocak2018280031\aliKocak2018280031\bin\Debug\aliKocak2018280031.exe
+C:\Users\lenovo\source\repos\aliKocak2018280031\aliKocak2018280031\bin\Debug\aliKocak2018280031.pdb
+C:\Users\lenovo\source\repos\aliKocak2018280031\aliKocak2018280031\obj\Debug\aliKocak2018280031.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\aliKocak2018280031\aliKocak2018280031\obj\Debug\aliKocak2018280031.Form1.resources
+C:\Users\lenovo\source\repos\aliKocak2018280031\aliKocak2018280031\obj\Debug\aliKocak2018280031.Properties.Resources.resources
+C:\Users\lenovo\source\repos\aliKocak2018280031\aliKocak2018280031\obj\Debug\aliKocak2018280031.csproj.GenerateResource.cache
+C:\Users\lenovo\source\repos\aliKocak2018280031\aliKocak2018280031\obj\Debug\aliKocak2018280031.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\aliKocak2018280031\aliKocak2018280031\obj\Debug\aliKocak2018280031.exe
+C:\Users\lenovo\source\repos\aliKocak2018280031\aliKocak2018280031\obj\Debug\aliKocak2018280031.pdb
